@@ -1,0 +1,11 @@
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\bin\Debug\AdoNetDemo.exe.config
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\bin\Debug\AdoNetDemo.exe
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\bin\Debug\AdoNetDemo.pdb
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.csproj.AssemblyReference.cache
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.Form1.resources
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.Properties.Resources.resources
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.csproj.GenerateResource.cache
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.csproj.CoreCompileInputs.cache
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.exe
+C:\Users\muaze\Desktop\CSharpCourseBTK\CSharpCourseBTK\AdoNetDemo\obj\Debug\AdoNetDemo.pdb
