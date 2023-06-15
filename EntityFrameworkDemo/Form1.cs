@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EntityFrameworkDemo
@@ -26,6 +19,12 @@ namespace EntityFrameworkDemo
         private void LoadProducts()
         {
             dgwProducts.DataSource = _productDal.GetAll();
+        }
+        private void SearchProducts(string key)
+        {
+            //var result = _productDal.GetAll().Where(p => p.Name.ToLower().Contains(key.ToLower())).ToList();//koleksiyondan gelen bilgi
+            var result = _productDal.GetByName(key);//veritabanından gelen bilgi
+            dgwProducts.DataSource = result;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -68,6 +67,16 @@ namespace EntityFrameworkDemo
             });
             LoadProducts();
             MessageBox.Show("Deleted");
+        }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchProducts(tbxSearch.Text);
+        }
+
+        private void tbxGetById_Click(object sender, EventArgs e)
+        {
+            _productDal.GetById(1);
         }
     }
 }
